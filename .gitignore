@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CivCloneBC/CopilotIndices/17.14.878.3237
+/.vs/CivCloneBC/FileContentIndex
+/.vs/CivCloneBC/v17
+/.vs
+/archive
+/CivClone/.vs
+/CivClone/bin/Debug/net6.0
+/CivClone/obj
