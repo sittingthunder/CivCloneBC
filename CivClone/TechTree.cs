@@ -36,6 +36,15 @@ namespace CivClone
         }
 
         /// <summary>
+        /// Returns the name of the technology currently being researched,
+        /// or null if none is selected.
+        /// </summary>
+        public string? GetCurrentResearch()
+        {
+            return _currentResearch?.Name;
+        }
+
+        /// <summary>
         /// Returns true if the named technology has been researched.
         /// </summary>
         public bool IsResearched(string name) => _technologies.TryGetValue(name, out var tech) && tech.Researched;
